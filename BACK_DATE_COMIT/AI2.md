@@ -16,6 +16,12 @@ We are living through the most consequential period in the history of computing.
 
 ---
 
+---
+
+---
+
+---
+
 ## 🔬 What Modern AI Actually Is
 
 AI in 2024 is primarily driven by a family of models called **Large Language Models (LLMs)**. These are neural networks trained on enormous amounts of text — trillions of words from books, websites, code repositories, and scientific papers. Through this training, they develop a deep statistical understanding of language, reasoning, facts, and patterns.
@@ -48,18 +54,18 @@ Once trained and aligned, models are served via APIs. Developers build applicati
 
 ## 💡 Core AI Concepts — Explained Simply
 
-| 🔑 Concept | 📖 What It Means |
-|-----------|-----------------|
-| 🧩 Token | The basic unit of text the model processes. A token is roughly 4 characters or 0.75 words. |
-| 🔢 Parameters | The numerical weights inside a neural network. More parameters = more capacity to learn. GPT-4 has an estimated 1 trillion+. |
-| 📐 Embedding | A vector (list of numbers) that represents a word or concept in high-dimensional space. Similar concepts cluster together. |
-| 🎯 Attention | The mechanism that lets a model focus on relevant parts of the input when generating each output token. |
-| 📏 Context Window | How much text the model can read and consider at once. Modern models handle 100K–1M+ tokens. |
-| 🔄 RLHF | Training technique using human preferences to make models more helpful and safe. |
-| 🗂️ RAG | Retrieval-Augmented Generation — connecting a model to a knowledge base so it can look up real information before answering. |
-| 🤖 Agent | An AI system that can plan, use tools, and take multi-step actions to complete a goal. |
-| 🎨 Multimodal | A model that handles multiple types of input — text, images, audio, video — in a single system. |
-| ⚡ Inference | The process of running a trained model to generate an output. Different from training. |
+| 🔑 Concept        | 📖 What It Means                                                                                                             |
+| ----------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| 🧩 Token          | The basic unit of text the model processes. A token is roughly 4 characters or 0.75 words.                                   |
+| 🔢 Parameters     | The numerical weights inside a neural network. More parameters = more capacity to learn. GPT-4 has an estimated 1 trillion+. |
+| 📐 Embedding      | A vector (list of numbers) that represents a word or concept in high-dimensional space. Similar concepts cluster together.   |
+| 🎯 Attention      | The mechanism that lets a model focus on relevant parts of the input when generating each output token.                      |
+| 📏 Context Window | How much text the model can read and consider at once. Modern models handle 100K–1M+ tokens.                                 |
+| 🔄 RLHF           | Training technique using human preferences to make models more helpful and safe.                                             |
+| 🗂️ RAG            | Retrieval-Augmented Generation — connecting a model to a knowledge base so it can look up real information before answering. |
+| 🤖 Agent          | An AI system that can plan, use tools, and take multi-step actions to complete a goal.                                       |
+| 🎨 Multimodal     | A model that handles multiple types of input — text, images, audio, video — in a single system.                              |
+| ⚡ Inference      | The process of running a trained model to generate an output. Different from training.                                       |
 
 ---
 
@@ -135,18 +141,23 @@ Open-source AI enables:
 ## ⚠️ Honest Challenges
 
 ### 🌀 Hallucination
+
 Models sometimes generate confident-sounding but factually wrong information. They cannot always distinguish what they know from what they are guessing. RAG and grounding reduce this but do not eliminate it.
 
 ### 🎯 Alignment
+
 Ensuring AI systems reliably do what humans intend — and nothing more — is an unsolved problem. As models become more capable, the importance and difficulty of alignment grows.
 
 ### 💸 Cost and Access
+
 Frontier AI is expensive to train and run. This concentrates power in a small number of well-funded organizations and raises questions about who benefits from AI progress.
 
 ### ⚖️ Bias and Fairness
+
 AI trained on internet-scale data absorbs the biases of that data. Models can perform worse for certain demographic groups, languages, or cultural contexts. Ongoing evaluation and mitigation work is essential.
 
 ### 🔒 Privacy and Security
+
 AI systems that handle sensitive data create new privacy risks. Adversarial prompts, jailbreaks, and prompt injection attacks are real security challenges in AI deployment.
 
 ---
@@ -154,6 +165,7 @@ AI systems that handle sensitive data create new privacy risks. Adversarial prom
 ## 📈 Development Progress — May 25, 2024
 
 ### ✅ Completed Today
+
 - Repository structure cleanup and maintenance
 - Documentation updated with latest AI workflow notes
 - Code organization improvements across modules
@@ -161,12 +173,14 @@ AI systems that handle sensitive data create new privacy risks. Adversarial prom
 - Open-source contribution readiness review
 
 ### 🔄 In Progress
+
 - Advanced AI integration pipelines
 - Agent orchestration framework evaluation
 - RAG pipeline performance tuning
 - Automated testing coverage expansion
 
 ### 🎯 Coming Next
+
 - New feature implementation with AI-native architecture
 - Enhanced user experience through intelligent personalization
 - Modern infrastructure upgrades for scale
@@ -176,18 +190,18 @@ AI systems that handle sensitive data create new privacy risks. Adversarial prom
 
 ## 🛠️ The Developer's AI Toolkit in 2024
 
-| 🔧 Tool / Framework | 📌 What It Does |
-|--------------------|----------------|
-| 🦜 LangChain | Framework for building LLM-powered apps with chains, agents, and memory |
-| 🦙 LlamaIndex | Data framework for connecting LLMs to external knowledge sources (RAG) |
-| 📌 Pinecone / Weaviate | Vector databases for storing and searching embeddings |
-| 🤗 Hugging Face | Hub for open-source models, datasets, and deployment tools |
-| 🔥 PyTorch | The dominant deep learning framework for research and production |
-| ⚡ vLLM | High-throughput LLM inference server for self-hosted models |
-| 🧪 Weights & Biases | Experiment tracking and model evaluation platform |
-| 🔑 OpenAI / Anthropic APIs | Access to frontier models via API |
-| 🌐 Ollama | Run open-source LLMs locally with a simple interface |
-| 📊 Braintrust | Evaluation and testing platform for LLM applications |
+| 🔧 Tool / Framework        | 📌 What It Does                                                         |
+| -------------------------- | ----------------------------------------------------------------------- |
+| 🦜 LangChain               | Framework for building LLM-powered apps with chains, agents, and memory |
+| 🦙 LlamaIndex              | Data framework for connecting LLMs to external knowledge sources (RAG)  |
+| 📌 Pinecone / Weaviate     | Vector databases for storing and searching embeddings                   |
+| 🤗 Hugging Face            | Hub for open-source models, datasets, and deployment tools              |
+| 🔥 PyTorch                 | The dominant deep learning framework for research and production        |
+| ⚡ vLLM                    | High-throughput LLM inference server for self-hosted models             |
+| 🧪 Weights & Biases        | Experiment tracking and model evaluation platform                       |
+| 🔑 OpenAI / Anthropic APIs | Access to frontier models via API                                       |
+| 🌐 Ollama                  | Run open-source LLMs locally with a simple interface                    |
+| 📊 Braintrust              | Evaluation and testing platform for LLM applications                    |
 
 ---
 
@@ -206,7 +220,7 @@ Message: "Update files"
 
 ## 🌟 Closing Thought
 
-> *Every commit is one small act of building. Over time, those acts compound into something that matters — software that thinks, systems that help, tools that empower. Keep building. Keep learning. Keep innovating.*
+> _Every commit is one small act of building. Over time, those acts compound into something that matters — software that thinks, systems that help, tools that empower. Keep building. Keep learning. Keep innovating._
 
 ---
 
@@ -214,4 +228,4 @@ Message: "Update files"
 
 ---
 
-*🚀 AI Development Milestone · May 25, 2024 · Turning Ideas into Reality Through Code*
+_🚀 AI Development Milestone · May 25, 2024 · Turning Ideas into Reality Through Code_
