@@ -18,10 +18,6 @@ We are living through the most consequential period in the history of computing.
 
 ---
 
----
-
----
-
 ## 🔬 What Modern AI Actually Is
 
 AI in 2024 is primarily driven by a family of models called **Large Language Models (LLMs)**. These are neural networks trained on enormous amounts of text — trillions of words from books, websites, code repositories, and scientific papers. Through this training, they develop a deep statistical understanding of language, reasoning, facts, and patterns.
