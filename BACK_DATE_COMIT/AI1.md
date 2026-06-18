@@ -12,16 +12,16 @@
 
 The developer building today is not simply writing software. They are designing systems that learn, adapt, and reason over context. Understanding the DNA of AI — its core building blocks, failure modes, and emergent capabilities — is now as fundamental as understanding data structures or networking.
 
-> *"We are not programming machines to think. We are creating conditions under which thinking emerges from scale, data, and architecture."* — the central insight of the large language model era.
+> _"We are not programming machines to think. We are creating conditions under which thinking emerges from scale, data, and architecture."_ — the central insight of the large language model era.
 
 ### Key Numbers (2024)
 
-| Metric | Figure |
-|--------|--------|
-| Parameters in frontier models | 1 trillion+ |
+| Metric                         | Figure       |
+| ------------------------------ | ------------ |
+| Parameters in frontier models  | 1 trillion+  |
 | Monthly AI tool users globally | 180 million+ |
-| Dev tasks AI-assisted in 2024 | ~40% |
-| Global AI investment in 2024 | $150 billion |
+| Dev tasks AI-assisted in 2024  | ~40%         |
+| Global AI investment in 2024   | $150 billion |
 
 ---
 
@@ -31,7 +31,7 @@ Every capable AI system in 2024 — whether a language model, an image generator
 
 ### 01 — The Transformer Architecture
 
-Introduced in 2017 in *"Attention Is All You Need,"* the transformer replaced recurrence with self-attention. Every token in a sequence can directly attend to every other token, regardless of distance. This allows parallel training on massive datasets and enables models to capture long-range dependencies in language, code, and images. Almost all frontier models — GPT, Claude, Gemini, Llama — are transformer-based.
+Introduced in 2017 in _"Attention Is All You Need,"_ the transformer replaced recurrence with self-attention. Every token in a sequence can directly attend to every other token, regardless of distance. This allows parallel training on massive datasets and enables models to capture long-range dependencies in language, code, and images. Almost all frontier models — GPT, Claude, Gemini, Llama — are transformer-based.
 
 ### 02 — Self-Attention and Multi-Head Attention
 
@@ -103,15 +103,15 @@ Image generation (Stable Diffusion, Midjourney, DALL-E 3), video synthesis (Sora
 
 ## A Compressed Timeline of AI Inflection Points
 
-| Year | Event |
-|------|-------|
-| **2017** | Vaswani et al. publish *"Attention Is All You Need."* The transformer architecture is born. |
-| **2018–2019** | BERT and GPT-2 demonstrate the power of pretraining on massive corpora. The foundation model paradigm emerges. |
-| **2020** | GPT-3 (175B parameters) shows in-context learning. The OpenAI API launches. The commercial AI era begins. |
-| **2021–2022** | OpenAI applies RLHF to produce InstructGPT. Anthropic is founded. Alignment research enters mainstream AI development. |
-| **Nov 2022** | ChatGPT reaches 100 million users in two months — the fastest product adoption in history. |
-| **2023** | GPT-4 passes the bar exam. Claude, Gemini, Llama 2, and Mistral launch. Open-source models close the capability gap dramatically. |
-| **2024** | Context windows reach 1M+ tokens. Agentic systems enter real enterprise deployment. AI code generation and AI-native applications go mainstream. |
+| Year          | Event                                                                                                                                            |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **2017**      | Vaswani et al. publish _"Attention Is All You Need."_ The transformer architecture is born.                                                      |
+| **2018–2019** | BERT and GPT-2 demonstrate the power of pretraining on massive corpora. The foundation model paradigm emerges.                                   |
+| **2020**      | GPT-3 (175B parameters) shows in-context learning. The OpenAI API launches. The commercial AI era begins.                                        |
+| **2021–2022** | OpenAI applies RLHF to produce InstructGPT. Anthropic is founded. Alignment research enters mainstream AI development.                           |
+| **Nov 2022**  | ChatGPT reaches 100 million users in two months — the fastest product adoption in history.                                                       |
+| **2023**      | GPT-4 passes the bar exam. Claude, Gemini, Llama 2, and Mistral launch. Open-source models close the capability gap dramatically.                |
+| **2024**      | Context windows reach 1M+ tokens. Agentic systems enter real enterprise deployment. AI code generation and AI-native applications go mainstream. |
 
 ---
 
@@ -161,7 +161,7 @@ Models trained on internet-scale data absorb the biases present in that data —
 
 ## Closing
 
-> *Every commit is a step in a larger project — not just building software, but helping to determine what kind of AI systems exist in the world, and who they serve.*
+> _Every commit is a step in a larger project — not just building software, but helping to determine what kind of AI systems exist in the world, and who they serve._
 
 ---
 
@@ -169,4 +169,6 @@ Models trained on internet-scale data absorb the biases present in that data —
 
 ---
 
-*AI Development Milestone · November 08, 2024 · Keep building. Keep learning. Keep innovating.*
+_AI Development Milestone · November 08, 2024 · Keep building. Keep learning. Keep innovating._
+
+_AI Development Milestone Every day new and small changes · November 10, 2024 · Keep building. Keep learning. Keep innovating._
